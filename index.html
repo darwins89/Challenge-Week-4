@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <div class="large-font"> A Quiz About Coding</div>
+        <button class="begin-button"> Begin Quiz</button>
+    </header>
+
+    <div class="card timer">
+        <div class="timer-text">
+            <div class="large-font timer-count">5</div>
+            <h3>seconds remaining</h3>
+        </div>
+
+    </div>
+
+    <div>
+        <h2>Wins: <span class="win">0 </span> </h2>
+        <h2>Losses: <span class="lose">0</span></h2>
+    </div>
+
+
+    <main>
+        <section>
+            <div class="card word-guess">
+                <div class="large-font CG">Code Game</div>
+            </div>
+        </section>
+    </main>
+
+    <div class="question-container" id="q">
+        question goes here.
+
+    </div>
+
+
+    <div>
+        <button class="questions" id="op1" onclick="checkAnswer('option1')">uno</button>
+
+        <button class="questions" id="op2" onclick="checkAnswer('option2')">dos</button>
+
+        <button class="questions" id="op3" onclick="checkAnswer('option3')">tres</button>
+
+        <button class="questions" id="op4" onclick="checkAnswer('option4')">cuatro</button>
+    </div>
+
+    <div class="panel">
+     <div class="result">
+    </div>
+        
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+
+
+</html>
